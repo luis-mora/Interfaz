@@ -31,7 +31,7 @@ public class Interfaz extends JFrame implements ActionListener{
 		setLayout(new BorderLayout());
 		
 		campoTexto = new TextField();
-		boton = new Button("Click para agregar texto");
+		boton = new Button("Agregar texto");
 		areaTexto = new TextArea();
 		
 		add(campoTexto, BorderLayout.NORTH);
